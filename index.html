@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mwachi Technologies</title>
+
+<!-- GOOGLE FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- FONT AWESOME -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<!-- AOS -->
+<link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+<h1>MWACHI <span>TECHNOLOGIES</span></h1>
+</div>
+
+<nav>
+<button onclick="scrollToSec('services')">Services</button>
+<button onclick="scrollToSec('what')">What We Do</button>
+<button onclick="scrollToSec('booking')">Book Service</button>
+<button onclick="scrollToSec('contact')">Contact</button>
+</nav>
+
+<button class="header-btn" onclick="openWhatsApp()">
+<i class="fab fa-whatsapp"></i> 0743882333
+</button>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<!-- VIDEO BACKGROUND -->
+<video autoplay muted loop playsinline class="bg-video">
+<source src="videos/tech.mp4" type="video/mp4">
+</video>
+
+<div class="hero-overlay"></div>
+
+<!-- LEFT -->
+
+<div class="hero-left" data-aos="fade-right">
+
+<div class="tag">
+⚡ Welcome to Mwachi Technologies
+</div>
+
+<h2>
+Creative Solutions.<br>
+<span>Smart Technology.</span>
+</h2>
+
+<p>
+Mwachi Technologies is a modern tech solutions company
+offering professional digital services, electrical installation,
+electronics repair, ICT support and creative media solutions
+for businesses, institutions and individuals.
+</p>
+
+<div class="hero-buttons">
+
+<button class="btn-primary"
+onclick="scrollToSec('services')">
+
+<i class="fas fa-rocket"></i>
+Explore Services
+
+</button>
+
+<button class="btn-outline"
+onclick="openWhatsApp()">
+
+<i class="fab fa-whatsapp"></i>
+Book Service
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- COUNTERS -->
+
+<div class="stats">
+
+<div class="stat-card">
+<i class="fas fa-users"></i>
+<div class="counter" data-target="167">0</div>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat-card">
+<i class="fas fa-briefcase"></i>
+<div class="counter" data-target="136">0</div>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-card">
+<i class="fas fa-award"></i>
+<div class="counter" data-target="120">0</div>
+<p>Quality Service</p>
+</div>
+
+<div class="stat-card">
+<i class="fas fa-headset"></i>
+<div class="counter" data-target="365">0</div>
+<p>24/7 Support</p>
+</div>
+
+</div>
+
+<div class="container">
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<div class="section-title">
+
+<span>OUR SERVICES</span>
+
+<h2>What We Offer</h2>
+
+</div>
+
+<div class="grid">
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-laptop-code"></i>
+<h3>Web Design & Development</h3>
+<p>
+Modern responsive and SEO-friendly websites
+that grow your business.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-pen-nib"></i>
+<h3>Logo & Brand Design</h3>
+<p>
+Creative logos and brand identities
+that make businesses stand out.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-bullhorn"></i>
+<h3>Social Media Management</h3>
+<p>
+Strategic content and management
+to grow your audience online.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-film"></i>
+<h3>Video Editing & Content Creation</h3>
+<p>
+Professional edits and visual content
+that tells your story.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-bolt"></i>
+<h3>Electrical Installation</h3>
+<p>
+Electrical wiring, breaker setup,
+lighting and maintenance.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-tools"></i>
+<h3>Electronics Repair & Maintenance</h3>
+<p>
+Repair of TVs, woofers, laptops,
+phones and electronic devices.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-desktop"></i>
+<h3>Computer & ICT Support</h3>
+<p>
+Computer maintenance, networking,
+software installation and ICT support.
+</p>
+</div>
+
+<div class="service-card" data-aos="fade-up">
+<i class="fas fa-volume-up"></i>
+<h3>Sound System Setup</h3>
+<p>
+Professional sound installation,
+troubleshooting and maintenance.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- WHAT WE DO -->
+
+<section id="what">
+
+<div class="section-title">
+
+<span>WHAT WE DO</span>
+
+<h2>Technical Solutions</h2>
+
+</div>
+
+<div class="what-grid">
+
+<div class="what-card">
+<i class="fas fa-tv"></i>
+<p>TV Repair</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-volume-up"></i>
+<p>Woofer Repair</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-plug"></i>
+<p>Electrical Wiring</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-video"></i>
+<p>CCTV Installation</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-computer"></i>
+<p>Computer Maintenance</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-download"></i>
+<p>Software Installation</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-wifi"></i>
+<p>Network Setup</p>
+</div>
+
+<div class="what-card">
+<i class="fas fa-screwdriver-wrench"></i>
+<p>Appliance Troubleshooting</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- BOOKING -->
+
+<section id="booking">
+
+<div class="booking">
+
+<div class="booking-right" data-aos="fade-left">
+
+<h2>
+Book a <span>Service</span>
+</h2>
+
+<p>
+Fill in your details and we’ll respond
+as soon as possible.
+</p>
+
+<form onsubmit="sendToWhatsApp(event)">
+
+<div class="form-row">
+
+<input type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+</div>
+
+<div class="form-row">
+
+<select id="service" required>
+
+<option value="">
+Select Service
+</option>
+
+<option>
+Website Development
+</option>
+
+<option>
+Logo Design
+</option>
+
+<option>
+Social Media Management
+</option>
+
+<option>
+Electronics Repair
+</option>
+
+<option>
+Electrical Installation
+</option>
+
+<option>
+ICT Support
+</option>
+
+</select>
+
+<input type="text"
+id="subject"
+placeholder="Subject">
+
+</div>
+
+<textarea
+id="message"
+placeholder="Describe what you need..."
+required></textarea>
+
+<button type="submit">
+
+<i class="fab fa-whatsapp"></i>
+Send Request on WhatsApp
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="section-title">
+
+<span>CONTACT US</span>
+
+<h2>Get In Touch</h2>
+
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<h3>Contact Us</h3>
+
+<p>
+📞 0743882333
+</p>
+
+<p style="margin-top:10px;">
+Fast. Reliable. Professional.
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Visit Website</h3>
+
+<p>
+https://mwachistann.github.io/Mwachifix/
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Follow Us</h3>
+
+<div class="socials">
+
+<a href="#">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-tiktok"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-youtube"></i>
+</a>
+
+</div>
+
+<p style="margin-top:15px;">
+@mwachi fix
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 Mwachi Technologies | Creative Solutions. Smart Technology.
+</footer>
+
+<!-- WHATSAPP -->
+
+<div class="whatsapp" onclick="openWhatsApp()">
+
+<i class="fab fa-whatsapp"></i>
+
+</div>
+
+<!-- AOS -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+/* AOS */
+
+AOS.init({
+duration:1000,
+once:true
+});
+
+/* COUNTER */
+
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter=>{
+
+counter.innerText='0';
+
+const updateCounter=()=>{
+
+const target=+counter.getAttribute('data-target');
+
+const c=+counter.innerText;
+
+const increment=target/100;
+
+if(c<target){
+
+counter.innerText=`${Math.ceil(c+increment)}`;
+
+setTimeout(updateCounter,20);
+
+}else{
+
+counter.innerText=target;
+
+}
+
+};
+
+updateCounter();
+
+});
+
+/* SCROLL */
+
+function scrollToSec(id){
+
+document.getElementById(id).scrollIntoView({
+behavior:'smooth'
+});
+
+}
+
+/* WHATSAPP */
+
+function openWhatsApp(){
+
+let msg=encodeURIComponent(
+"Hello Mwachi Technologies, I would like more information about your services."
+);
+
+window.open(
+"https://wa.me/254743882333?text="+msg,
+'_blank'
+);
+
+}
+
+/* FORM */
+
+function sendToWhatsApp(e){
+
+e.preventDefault();
+
+let name=
+document.getElementById('name').value;
+
+let phone=
+document.getElementById('phone').value;
+
+let service=
+document.getElementById('service').value;
+
+let subject=
+document.getElementById('subject').value;
+
+let message=
+document.getElementById('message').value;
+
+let text=
+`Hello Mwachi Technologies,
+
+Name: ${name}
+Phone: ${phone}
+Service: ${service}
+Subject: ${subject}
+Details: ${message}`;
+
+window.open(
+`https://wa.me/254743882333?text=${encodeURIComponent(text)}`,
+'_blank'
+);
+
+}
+
+</script>
+
+</body>
+</html>
